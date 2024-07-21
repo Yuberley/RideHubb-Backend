@@ -1,0 +1,12 @@
+﻿services:
+  ridehubb:
+    image: ridehubb
+    build:
+      context: .
+      dockerfile: RideHubb/Dockerfile
+
+  web.api:
+    image: web.api
+    build:
+      context: .
+      dockerfile: Web.API/Dockerfile

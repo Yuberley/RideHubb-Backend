@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D001E998-0FEB-4902-9C86-F5C819015241}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0A22C78B-BA93-4A30-85BB-5A0E4B984FE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RideHubb.Infrastructure", "src\RideHubb.Infrastructure\RideHubb.Infrastructure.csproj", "{51324DE2-FB77-4553-AE32-407C7F5E684D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RideHubb.Web.API", "src\RideHubb.Web.API\RideHubb.Web.API.csproj", "{5DE844E5-45D2-4091-80E8-94E90B23F2D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RideHubb.Domain", "src\RideHubb.Domain\RideHubb.Domain.csproj", "{14B658F7-0A98-460E-9CD2-22E5765BE1EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RideHubb.Application", "src\RideHubb.Application\RideHubb.Application.csproj", "{10541094-42DD-47E4-86A3-146EA9FE59BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51324DE2-FB77-4553-AE32-407C7F5E684D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51324DE2-FB77-4553-AE32-407C7F5E684D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51324DE2-FB77-4553-AE32-407C7F5E684D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51324DE2-FB77-4553-AE32-407C7F5E684D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DE844E5-45D2-4091-80E8-94E90B23F2D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DE844E5-45D2-4091-80E8-94E90B23F2D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DE844E5-45D2-4091-80E8-94E90B23F2D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DE844E5-45D2-4091-80E8-94E90B23F2D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14B658F7-0A98-460E-9CD2-22E5765BE1EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14B658F7-0A98-460E-9CD2-22E5765BE1EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14B658F7-0A98-460E-9CD2-22E5765BE1EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14B658F7-0A98-460E-9CD2-22E5765BE1EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10541094-42DD-47E4-86A3-146EA9FE59BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10541094-42DD-47E4-86A3-146EA9FE59BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10541094-42DD-47E4-86A3-146EA9FE59BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10541094-42DD-47E4-86A3-146EA9FE59BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{51324DE2-FB77-4553-AE32-407C7F5E684D} = {0A22C78B-BA93-4A30-85BB-5A0E4B984FE7}
+		{5DE844E5-45D2-4091-80E8-94E90B23F2D8} = {0A22C78B-BA93-4A30-85BB-5A0E4B984FE7}
+		{14B658F7-0A98-460E-9CD2-22E5765BE1EC} = {0A22C78B-BA93-4A30-85BB-5A0E4B984FE7}
+		{10541094-42DD-47E4-86A3-146EA9FE59BF} = {0A22C78B-BA93-4A30-85BB-5A0E4B984FE7}
+	EndGlobalSection
+EndGlobal
