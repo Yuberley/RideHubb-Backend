@@ -6,4 +6,15 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="Invitations\" />
+      <Folder Include="Messages\" />
+      <Folder Include="Passengers\" />
+      <Folder Include="Ratings\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MediatR.Contracts" Version="2.0.1" />
+    </ItemGroup>
+
 </Project>
